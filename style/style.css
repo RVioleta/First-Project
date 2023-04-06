@@ -1,0 +1,606 @@
+	body{
+		margin: 0;
+	}
+	h1, h2, h3, h5, p{
+		font-family: 'Montserrat', sans-serif;
+	}
+	#card h3,
+	#stipendii h3,
+	#input h2,h3,
+	#four_card h3{
+		font-size: 32px;
+	}
+
+	.logo{
+		display: inline-flex;
+	}
+
+	.part_one{
+		background-image: url("../images/picture_1.PNG");
+		background-repeat: no-repeat;
+		height: 850px;
+		background-size: cover;
+		background-position: center;
+	}
+
+	.part_two{
+		background-image: url("../images/picture_2.JPG ");
+		background-repeat: no-repeat;
+		height: 850px;
+		background-size: cover;
+		background-position: center;	
+	}
+
+	.text{
+		background-image: url("../images/circle.PNG ");
+		background-repeat: no-repeat;		
+		height: 620px;
+		background-position: center;	
+		position: absolute;
+		top: 120px;
+		align-content: center;
+	}
+
+	.head_2{
+		font-size: 32px;
+		padding-top: 40px;
+	}
+
+	.head_1{
+		font-size: 40px;
+	}
+	.text img:hover{
+		cursor: pointer;
+	}
+	#start .arrow_1{
+		display: none;
+	}
+
+							/* css code for section start is done */
+
+
+	#card{
+		width: 90%;
+		margin: auto;
+	}
+	.card_1{
+		background-image: url("../images/card_1.JPG ");
+		background-repeat: no-repeat;
+		height: 690px;
+		background-size: cover;
+		background-position: center;
+		padding-top: 470px;
+	}
+	.card_2{
+		background-image: url("../images/card_2.JPG ");
+		background-repeat: no-repeat;
+		height: 690px;
+		background-size: cover;
+		background-position: center;
+		padding-top: 470px;
+	}
+	.card_3{
+		background-image: url("../images/card_3.JPG ");
+		background-repeat: no-repeat;
+		height: 690px;
+		background-size: cover;
+		background-position: center;
+		padding-top: 430px;
+	}
+
+
+
+	#card p{
+		font-size: 15px;
+	}
+	#card .button{
+		font-size: 18px;	
+	}
+	#card .button_1{
+		font-size: 24px;
+		background-color: #007BFF;	
+		border-radius: 10px;
+	}
+
+
+
+
+								/* css code for section card is done */
+
+
+	#our{
+		background-image: url("../images/courses.JPG ");
+		background-repeat: no-repeat;
+		height: 760px;
+		background-size: cover;
+		background-position: left;
+	}
+
+	.text_1{
+		padding-left: 40px;
+		padding-right: 45px;
+		padding-top: 185px;
+	}
+
+	#our .text_1 h3{
+		font-size: 40px;
+	}
+
+	#our .text_1 p{
+		font-size: 20px;
+	}
+
+	#our_1{
+		display: none;
+	}
+
+
+
+								/* css code for section our is done */
+	
+		
+	#our_1 h3{
+		font-size: 20px;
+		padding-left: 35px;
+		padding-top: 35px;
+	}
+
+	#our_1 p{
+		font-size: 15px;
+		display: block;
+		padding: 0px 35px 0px 35px;		
+	}
+	.card_mob{		
+		height: 550px;
+		margin-bottom: 30px;
+	}
+
+
+								/* css code for section our_1  is done */
+
+
+	.card_4{
+		background-image: url("../images/card_4.JPG ");
+		background-repeat: no-repeat;
+		height: 440px;
+		background-size: cover;
+		background-position: center;
+		padding-top: 250px;	
+	}
+
+	.card_5{
+		background-image: url("../images/card_5.JPG ");
+		background-repeat: no-repeat;
+		height: 440px;
+		background-size: cover;
+		background-position: center;
+		padding-top: 210px;	
+	}
+
+	#stipendii p{
+		font-size: 18px;
+	}
+
+
+	.button{
+		width: 160px;
+		font-size: 18px;
+		border-radius: 10px;
+	}
+
+	#stipendii{
+		background-color: #D8D8D8 !important;
+	}
+	.stipendii{
+		width: 90%;
+		margin: auto;
+	}
+
+								/* css code for section stipendii is done */
+
+
+	#input p{
+		font-size: 20px;
+	}
+
+	#stipendii h5{
+		font-size: 12px;
+	}
+
+	#input{
+		background-image: url("../images/light.JPG ");
+		background-repeat: no-repeat;
+		height: 874px;
+		background-size: cover;
+		background-position: center;
+		display: flex;
+	}
+
+	.input{
+		border: 1px solid #068BED;
+		border-radius: 12px;
+	}
+
+	.img_input{
+		background-image: url("../images/img_input.PNG ");
+		background-repeat: no-repeat;
+		width: 750px;
+		height: 750px;	
+		margin: auto;
+		border: 20px solid transparent !important;
+		border: 2px solid white;
+		border-radius: 50%;
+		align-content: center !important;	
+	}
+
+
+										/*css code for cestion input is done*/
+	#four_card h2{
+		font-size: 32px;
+	}
+
+	#four_card h3{
+		font-size: 24px;
+	}
+
+	#four_card p{
+		font-size: 16px;		
+	}
+
+	.four_card{
+		width: 90%;
+		margin: auto;
+	}
+
+	.cards{
+		padding-top: 70px;
+		padding-bottom: 80px;
+		border: 3px solid transparent;
+		background: linear-gradient(#fff,#fff) padding-box,
+	 	linear-gradient(231.38deg, #7d42ff -5.3%, #08fcff 119.03%) border-box;
+	}
+
+	.four_card_1{
+		background-color: orange;
+		border-top-left-radius: 200%;
+		border-top-right-radius:200%;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+
+												/* css code for section four_card is done */
+
+
+		#carosel{
+			margin-bottom: 50px;	
+		}
+
+		#carosel .text_2{
+			background-color: #243F60;
+			padding-left: 40px;
+			padding-right: 40px;			
+		}
+
+		#carosel .text_2 h1{
+			font-size: 40px;
+		}
+
+		#carosel .text_2 h3{
+			font-size: 32px;
+			padding-bottom: 100px !important;				
+		}
+
+		#carosel ol li{
+			background-color: grey;
+			width: 20px;
+			height: 20px;
+			border-radius: 50%;
+			margin-right: 10px;
+		}
+		#carosel ol{
+			background-color: white;
+			margin: 0;
+			padding-top: 50px !important;
+		}
+
+		#footer{
+			background-color: #243F60;
+			margin-top: 100px;
+			width: 98%;
+			margin: auto;
+		}
+
+
+
+											/*css code for section carosel is done*/
+
+
+	.footer{
+		width: 80%;
+		margin: auto;
+	}
+
+	#footer h3{
+		font-size: 18px;
+	}
+
+	#footer p{
+		font-size: 14px;
+	}
+
+	.icon{
+		width: 67px;
+		height: 67px;
+		border-radius: 50%;
+		color: #243F60;
+		background-color: white;
+		padding-left: 12px;
+		padding-top: 12px;	
+	}
+
+	.icon_1{
+		color: #243F60;
+		background-color: white;	
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		text-align: center;
+		padding-top: 5px;
+	}
+
+	.icon_2{
+		color: white;
+	}
+
+	#footer .two{
+		padding-top: 110px;
+	}
+
+
+
+
+										/*css code for desktop version is done*/
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+   
+
+	.text{
+		background: transparent;
+	}	  
+
+	#start .text .head_2{
+		font-size: 20px;
+		color: black !important;
+	}
+	#start .text .head_1{
+		font-size: 24px;
+		color: black !important;
+	}
+
+	#start .logo h4, p{
+		display: none;
+	}
+	#start .logo i{
+		color: white;	
+		background: black;
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
+		text-align: center;
+		vertical-align: middle;
+	}
+
+	#start .arrow{
+		display: none;
+	}
+	#start .arrow_1{		
+		display: block;			
+	}
+
+											/*  id start */
+
+
+
+	#card .card_1{
+		margin-bottom: 30px;
+	}
+
+	#card .card_1 p,
+	#card .card_2 p{
+		display: block;
+		font-size: 14px;   		
+	}
+
+	#card .card_1 h3,
+	#card .card_2 h3{
+		font-size: 20px;  	
+	}
+	#card .card_1 p{
+		padding-top: 10px;
+	}
+	#card .card_2 p{
+		padding-top: 30px;
+	}
+
+	#card .card_1 .button,
+	#card .card_2 .button,{
+		font-size: 14px;
+		padding: 16px 32px 16px 32px;  	
+	}
+	#card .card_3{
+		display: none;
+	}
+
+
+													/* id card */
+
+
+	#our{
+		display: none;
+	}												
+	#our_1{
+		display: block;
+	}	
+
+													/*	id our / our_1	*/
+
+	#stipendii{
+		background: white !important;
+	}
+	#stipendii .stipendii .para{
+		font-size: 18px;
+		display: block;
+	}
+
+	#stipendii .stipendii .para_2{
+		font-size: 14px;
+		display: block;
+	}
+
+	#stipendii .stipendii h3{
+		font-size: 20px;
+	}
+
+	#stipendii .stipendii .card_4,
+	#stipendii .stipendii .card_5{
+		margin-bottom: 30px;
+	}
+
+	#stipendii .stipendii .card_4 p,
+	#stipendii .stipendii .card_5 p{
+		font-size: 14px;
+		display: block;
+	}
+
+	#stipendii .stipendii .card_4 p{
+		padding-top: 25px;
+	}
+
+	#stipendii .stipendii .card_5 p{
+		padding-top: 35px;
+	}
+
+	#stipendii .stipendii .card_4 button,
+	#stipendii .stipendii .card_5 button{
+		font-size: 14px;
+	}
+
+											/*	id stipendii	*/
+
+
+
+	#input .img_input{
+		background-image: none;	
+		padding-bottom: 250px;
+	}
+
+	#input{
+		background-image: none;
+		background-color:#243F60 ;
+		height: 445px;	
+	}
+
+	#input .img_input h2{
+		color: white;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	#input .img_input p{
+		text-align: center;
+		color: white;
+		font-size: 18px;
+		display: block;
+	}
+
+	#input .img_input button{
+		width: 160px;
+		font-size: 16px;	
+		margin-right: 220px;
+		border-radius: 10px;
+	}
+
+													/*	id input	*/
+
+
+	#four_card .four_card_1{
+		border-top-left-radius:500%;
+		border-top-right-radius: 0%;
+		border-bottom-left-radius: 500%;
+	}
+
+	#four_card h2{
+		font-size: 25px;	
+		padding: 20px;
+	}
+
+	#four_card .card h3{
+		font-size: 18px;
+	}
+
+	#four_card .card p{
+		font-size: 14px;
+		display: block;
+		padding: 0 20px;
+	}
+
+
+											/*id four card*/
+  
+
+	#carosel .choise,
+	#carosel h2{
+		font-size: 20px;  	
+	}
+
+	#carosel .text_2 h1{
+		font-size: 20px;
+		padding-left: 20px;
+	}
+
+	#carosel .text_2 h3{
+		font-size: 18px;
+		padding-left: 20px;
+		padding-right: 20px; 
+	}
+
+	#carosel .del_2{
+		padding-bottom: 50px;
+	}
+
+													/*   carosel */
+
+
+
+	.icon_2{
+		width: 20px;
+		height: 20px;
+	}
+	#footer i{
+		margin-right: 28px !important;
+	}
+	#footer h3{
+		font-size: 18px;
+	}
+
+	#footer p{
+		font-size: 14px;
+		display: block;
+	}		
+
+	.footer{
+		width: 90%;
+		margin: auto;
+	}
+	.two{
+		padding-top: 30px !important;
+	}
+
+  
+}
+								/*css code for mobile version is finished */
