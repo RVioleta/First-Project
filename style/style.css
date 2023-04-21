@@ -4,7 +4,7 @@
 	h1, h2, h3, h5, p{
 		font-family: 'Montserrat', sans-serif;
 	}
-	#card h3,
+	#card h2,h3,
 	#stipendii h3,
 	#input h2,h3,
 	#four_card h3{
@@ -13,6 +13,12 @@
 
 	.logo{
 		display: inline-flex;
+	}
+	
+	.logo img{
+		width: 30px;
+		height: 30px;
+		border-radius: 50%;
 	}
 
 	.part_one{
@@ -52,10 +58,15 @@
 	.text img:hover{
 		cursor: pointer;
 	}
-	#start .arrow_1{
-		display: none;
+	
+	#start i{
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		color:black;
+		background:white;
+		padding-top: 5px;
 	}
-
 							/* css code for section start is done */
 
 
@@ -69,7 +80,7 @@
 		height: 690px;
 		background-size: cover;
 		background-position: center;
-		padding-top: 470px;
+		padding-top: 430px;
 	}
 	.card_2{
 		background-image: url("../images/card_2.JPG ");
@@ -77,7 +88,7 @@
 		height: 690px;
 		background-size: cover;
 		background-position: center;
-		padding-top: 470px;
+		padding-top: 430px;
 	}
 	.card_3{
 		background-image: url("../images/card_3.JPG ");
@@ -85,13 +96,23 @@
 		height: 690px;
 		background-size: cover;
 		background-position: center;
-		padding-top: 430px;
+		padding-top: 380px;
 	}
-
-
 
 	#card p{
 		font-size: 15px;
+	}
+	#card h2{
+		font-size: 32px;
+
+	}
+	#card .card_1 h2,
+	#card .card_2 h2{
+		font-size: 40px;
+	}
+	#card .card_3 h2{
+		font-size: 40px;
+		padding-right: 100px;
 	}
 	#card .button{
 		font-size: 18px;	
@@ -111,15 +132,15 @@
 	#our{
 		background-image: url("../images/courses.JPG ");
 		background-repeat: no-repeat;
-		height: 760px;
+		height: 760px;		
 		background-size: cover;
 		background-position: left;
 	}
 
 	.text_1{
 		padding-left: 40px;
-		padding-right: 45px;
-		padding-top: 185px;
+		padding-right: 40px;
+		padding-top: 220px;
 	}
 
 	#our .text_1 h3{
@@ -174,12 +195,16 @@
 		height: 440px;
 		background-size: cover;
 		background-position: center;
-		padding-top: 210px;	
+		padding-top: 250px;	
 	}
 
 	#stipendii p{
 		font-size: 18px;
 	}
+	#stipendii h5{
+		font-size: 12px;
+	}
+
 
 
 	.button{
@@ -203,10 +228,7 @@
 		font-size: 20px;
 	}
 
-	#stipendii h5{
-		font-size: 12px;
-	}
-
+	
 	#input{
 		background-image: url("../images/light.JPG ");
 		background-repeat: no-repeat;
@@ -224,19 +246,16 @@
 	.img_input{
 		background-image: url("../images/img_input.PNG ");
 		background-repeat: no-repeat;
-		width: 750px;
-		height: 750px;	
-		margin: auto;
-		border: 20px solid transparent !important;
-		border: 2px solid white;
-		border-radius: 50%;
+		width: 770px;
+		height: 770px;	
+		margin: auto;	
 		align-content: center !important;	
 	}
 
 
 										/*css code for cestion input is done*/
 	#four_card h2{
-		font-size: 32px;
+		font-size: 28px;
 	}
 
 	#four_card h3{
@@ -371,7 +390,10 @@
 
 	.text{
 		background: transparent;
-	}	  
+	}	
+	#start .text h2{
+		text-transform: bold;
+	}  
 
 	#start .text .head_2{
 		font-size: 20px;
@@ -385,29 +407,24 @@
 	#start .logo h4, p{
 		display: none;
 	}
-	#start .logo i{
+	#start i{
+		font-size: 25px;
 		color: white;	
-		background: black;
-		width: 30px;
-		height: 30px;
+		background: #243F60;
+		width: 40px;
+		height: 40px;
 		border-radius: 50%;
-		text-align: center;
-		vertical-align: middle;
-	}
+		padding-top: 7px;
+		}
 
-	#start .arrow{
-		display: none;
-	}
-	#start .arrow_1{		
-		display: block;			
-	}
-
+	
 											/*  id start */
 
 
 
 	#card .card_1{
 		margin-bottom: 30px;
+
 	}
 
 	#card .card_1 p,
@@ -416,19 +433,20 @@
 		font-size: 14px;   		
 	}
 
-	#card .card_1 h3,
-	#card .card_2 h3{
+	#card .card_1 h2,
+	#card .card_2 h2{
 		font-size: 20px;  	
 	}
+
 	#card .card_1 p{
-		padding-top: 10px;
+		padding-top: 50px;
 	}
 	#card .card_2 p{
-		padding-top: 30px;
+		padding-top: 70px;
 	}
 
 	#card .card_1 .button,
-	#card .card_2 .button,{
+	#card .card_2 .button{
 		font-size: 14px;
 		padding: 16px 32px 16px 32px;  	
 	}
@@ -479,11 +497,7 @@
 
 	#stipendii .stipendii .card_4 p{
 		padding-top: 25px;
-	}
-
-	#stipendii .stipendii .card_5 p{
-		padding-top: 35px;
-	}
+	}	
 
 	#stipendii .stipendii .card_4 button,
 	#stipendii .stipendii .card_5 button{
@@ -521,7 +535,7 @@
 	#input .img_input button{
 		width: 160px;
 		font-size: 16px;	
-		margin-right: 220px;
+		margin-right: 250px;
 		border-radius: 10px;
 	}
 
@@ -535,7 +549,7 @@
 	}
 
 	#four_card h2{
-		font-size: 25px;	
+		font-size: 24px;	
 		padding: 20px;
 	}
 
