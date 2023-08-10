@@ -36,6 +36,23 @@
 		background-size: cover;
 		background-position: center;	
 	}
+	.najava{
+		float: right;
+		font-size: 20px;
+		padding-top: 3%;
+		
+	}
+	.najava a{
+		text-decoration: none;
+	}
+
+	.najava a:hover{
+		background: #fff;
+    	color: black !important; 
+    	padding: 10px;
+    	border-radius: 10px;
+}
+	
 
 	.text{
 		background-image: url("../images/circle.PNG ");
