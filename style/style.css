@@ -36,6 +36,20 @@
 		background-size: cover;
 		background-position: center;	
 	}
+	.cart-icon{
+		background: none !important;
+		color: white !important;
+	} 
+	.cart-icon:hover{
+		color: black !important;
+	}
+
+	.cart-icon-1{
+		background: none !important;
+		color: black !important;
+	} 
+	
+
 	.najava{
 		float: right;
 		font-size: 20px;
@@ -635,3 +649,69 @@
   
 }
 								/*css code for mobile version is finished */
+
+
+.disabled-btn{
+	background: grey;
+    cursor: not-allowed;
+}
+
+.disabled-btn:hover{
+	background: grey;
+    cursor: not-allowed !important;
+}
+#academy{
+	background-color: rgb(234, 252, 242);
+}
+
+.kart{	
+	margin: 50px 75px;	
+	background-color: white;
+	border-radius: 25px;
+
+}
+.kart:hover{
+	border-bottom: 10px solid grey;
+}
+.korpa{
+	color: black !important;
+	padding-right: 10px;
+}
+
+#numAcademies{
+	position: relative;
+    right: 16%;
+    top: 12px;
+    background: green;
+    color: white;
+    padding-left: 4px;
+    border-radius: 50px;
+    width: 18px;
+    display: inline-block;
+    height: 21px;
+    font-size: 18px;
+}
+.card-m img{
+	width: 100px;
+	height: 100px;
+	border-radius: 20px;
+	text-align: center;
+
+}
+.card-m h2{
+	text-align: center;
+} 
+#carts{
+	margin-left: 200px;
+}
+.but_academy{
+	 background-color: #007bff!important; 
+	border-radius: 10px;
+	padding: 10px 40px;
+	text-align: center;
+	font-size: 25px;
+	margin-left: 42%;
+	margin-bottom: 50px;
+	color: white;
+	border: none;
+}

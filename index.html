@@ -52,8 +52,12 @@
 				</div>
 				<div class="col-lg-6 col-6 part_two">
 				<div class="najava">
-					<a href="#" class="text-white mr-5" data-bs-toggle="modal"  data-bs-target="#loginModal">LogIn</a>
+					<a href="academii.html" class="text-white mr-5">Academies</a>
+					<a href="#" class="text-white mr-5" data-bs-toggle="modal"  data-bs-target="#loginModal">Log In</a>
 					<a href="#" class="text-white mr-5" data-bs-toggle="modal"  data-bs-target="#registerModal">Register</a>
+					<a href="#" class="text-dark mr-5" data-bs-toggle="modal" data-bs-target="#exampleModal" id="academies-cart">
+						<i class="fa-solid fa-cart-shopping cart-icon pl-3"></i></a>
+					<span id="numAcademies"></span>
 				</div>
 				</div>
 			</div>	
@@ -146,7 +150,10 @@
 
 		<div class="row mb-5 ">
 			<div class="col-lg-4 offset-lg-4">
-				<button type="button" class="btn  form-control text-white button_1 ">Види ги сите настани</button>
+				<a href="academii.html">
+					<button type="button" class="btn  form-control text-white button_1 ">Види ги сите академии</button>
+				</a>
+				<!-- <button type="button" class="btn  form-control text-white button_1 ">Види ги сите настани</button> -->
 			</div>
 		</div>		
 	</section>
@@ -219,6 +226,17 @@
 
 
 			<!-- section with id stipendii is done -->
+
+
+			<section id="carosel_js">
+				 <div id="carts"> </div>
+				 <!-- <a href="academii.html">
+					<button type="button" class="btn  form-control text-white button_1 ">Види ги сите академии</button>
+				</a> -->
+				<a href="academii.html">
+					<button type="button" class="but_academy ">Види ги сите академии</button>
+				</a>
+			</section>
 
 
 			<section id="input">
@@ -436,28 +454,39 @@
 
 																	<!-- all code is done -->
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
-
+       
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Cart</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="container">
+        <div class="modal-body card-m text-center">
+          <div  id="added-academies"></div>
+          <p >Total: <span id="totalSum"></span></p>     
+            </div>
+          
+        </div>
+
+    </div>
+
+
+          
+         
+         
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          
+        </div>
       </div>
     </div>
   </div>
-</div>
+
+
+<script src="academii.js"></script>
 </body>
 </html>
